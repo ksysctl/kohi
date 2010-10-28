@@ -45,9 +45,7 @@ void textbackground(const int background_)
 	if (((background_ >= 0) && (background_ <= 7)) || ((background_ >= 10) && (background_ <= 17)))
 	{
 		if ((background_ >= 10) && (background_ <= 17))
-		{
 			__background = (background_ - 10);
-		}
 	}
 	else
 	{
@@ -61,13 +59,9 @@ void textbackground(const int background_)
 	else
 	{
 		if ((__color >= 10) && (__color <= 17))
-		{
 			printf("\033[1;3%d;4%dm",(__color - 10),__background);
-		}
 		else
-		{
 			printf("\033[0;3%d;4%dm",RESET_COLOR,__background);
-		}
 	}
 }
 
