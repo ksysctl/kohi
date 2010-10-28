@@ -79,13 +79,9 @@ void textcolor(const int color_)
 	else
 	{
 		if ((__color >= 10) && (__color <= 17))
-		{
 			printf("\033[1;3%d;4%dm",(__color - 10),__background);
-		}
 		else
-		{
 			printf("\033[0;3%d;4%dm",RESET_COLOR,__background);
-		}
 	}
 }
 
