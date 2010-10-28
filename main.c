@@ -2,7 +2,7 @@
  * Kohi (coffee in japanese) is a library that provides some similar functions
  * to the library of Borland, conio.
  *
- * Copyright (C) 2008 Moisés Brenes, http://mbrenes.blogspot.com
+ * Copyright (C) 2008 Moisés Brenes, http://blog.mbrenes.com
  *  
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,14 +22,12 @@
  * forbidden.
  */
  
-/* @ shakka
+/* @ gin
  * language : c
  * author   : Moisés Brenes - March 12, 2006
  * modify   : Moisés Brenes - November 28, 2008
  *
- * blog > mbrenes.blogspot.com
- * web  > radamanthys.homelinux.org
- * mail > moises.brenes@gmail.com
+ * blog > blog.mbrenes.com
  */
 
 #include "kohi.h"

@@ -1,10 +1,21 @@
 Kohi (coffee in japanese) is a library that provides some similar functions
 to the library of Borland, conio.
 
-Fisrt alpha:
-
 How to use:
 
-gcc -o my_app main.c -I/usr/local/include/ -L/usr/local/lib/ -lkohi
+[1] create/install library.
+
+   sudo make install
+
+[2] build your binary.
+ 
+   gcc -o my_app main.c -I/usr/local/include/ -L/usr/local/lib/ -lkohi
+
+PS: main.c is the code of example application.
 
 
+Uninstall library:
+
+[1] run uninstall using Makefile.
+
+   sudo make uninstall

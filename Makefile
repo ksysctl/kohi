@@ -1,5 +1,5 @@
 # Makefile for kohi,v 1.0 2008/12/14
-# author @ shakka
+# author @ gin
 
 BIN			= kohi
 DIR			= /usr/local/
