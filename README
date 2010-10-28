@@ -1,0 +1,10 @@
+Kohi (coffee in japanese) is a library that provides some similar functions
+to the library of Borland, conio.
+
+Fisrt alpha:
+
+How to use:
+
+gcc -o my_app main.c -I/usr/local/include/ -L/usr/local/lib/ -lkohi
+
+
