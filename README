@@ -7,15 +7,18 @@ How to use:
 
    sudo make install
 
-[2] build your binary.
+[2] build your binary application.
  
    gcc -o my_app main.c -I/usr/local/include/ -L/usr/local/lib/ -lkohi
-
-PS: main.c is the code of example application.
-
 
 Uninstall library:
 
 [1] run uninstall using Makefile.
 
    sudo make uninstall
+
+
+* main.c is the code of example application
+
+More information in the wiki:
+http://wiki.mbrenes.com/doku.php?id=geek:kohi
