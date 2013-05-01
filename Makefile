@@ -1,13 +1,13 @@
 # Makefile for kohi,v 1.0 2008/12/14
 # author @ gin
 
-BIN			= kohi
-DIR			= /usr/local/
-CC				= gcc
-OBJ			= $(BIN).o
-LIB			= lib$(BIN).a
-CFLAGS		= -c -Wall -g -o
-RM				= rm -f *.a *.o *~
+BIN = kohi
+DIR = /usr/local/
+CC = gcc
+OBJ = $(BIN).o
+LIB = lib$(BIN).a
+CFLAGS = -c -Wall -g -o
+RM = rm -f *.a *.o *~
 
 all : $(OBJ) $(LIB)
 
