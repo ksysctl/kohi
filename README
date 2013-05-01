@@ -3,22 +3,17 @@ to the library of Borland, conio.
 
 How to use:
 
-[1] create/install library.
+Create/install library.
 
    sudo make install
 
-[2] build your binary application.
+Build your binary application.
  
    gcc -o my_app main.c -I/usr/local/include/ -L/usr/local/lib/ -lkohi
 
 Uninstall library:
 
-[1] run uninstall using Makefile.
-
    sudo make uninstall
 
 
-* main.c is the code of example application
-
-More information in the wiki:
-http://wiki.mbrenes.com/doku.php?id=geek:kohi
+* main.c is to test the library.
