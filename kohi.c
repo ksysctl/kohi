@@ -22,20 +22,19 @@
  * forbidden.
  */
  
-/* @ gin
+/* @ gin - gin.github.com
  * language : c
  * author   : Moisés Brenes - March 12, 2006
  * modify   : Moisés Brenes - November 28, 2008
  *
- * blog > blog.mbrenes.com
  */
 
 #include "kohi.h"
 
-int __background = RESET_COLOR;	/* default background color */
-int __color = RESET_COLOR;		/* default text color */
+int __background = RESET_COLOR; /* Default background color */
+int __color = RESET_COLOR; /* Default text color */
 
-/* This sets the background color for the terminal
+/* Sets the terminal's background color.
  */
 void textbackground(const int background_)
 {
@@ -65,7 +64,7 @@ void textbackground(const int background_)
 	}
 }
 
-/* This sets the text color for the terminal
+/* Sets terminal's text color.
  */
 void textcolor(const int color_)
 {
@@ -85,7 +84,7 @@ void textcolor(const int color_)
 	}
 }
 
-/* This sets the position of a character on the screen
+/* Sets the position of a character on the screen.
  */
 void gotoxy(int x_, int y_)
 {
@@ -99,7 +98,7 @@ void gotoxy(int x_, int y_)
 	printf("\033[%d;%df", y_, x_);
 }
 
-/* This clears the console
+/* Clears the console.
  */
 void clrscr()
 {
@@ -107,7 +106,7 @@ void clrscr()
 	printf("\033[2J\033[1;1H");
 }
 
-/* This erases the characters from the current line
+/* Erases the characters from the current line.
  */
 void clrline()
 {
@@ -115,7 +114,7 @@ void clrline()
 	printf("\033[K");
 }
 
-/* This gets a character from keyboard, does not echo to screen.
+/* Gets a character from keyboard but does not print to the screen.
  */
 char getch()
 {
@@ -138,7 +137,7 @@ char c;
 return c;
 }
 
-/* This gets a character from keyboard, does echo to screen.
+/* Gets a character from keyboard and print to the screen.
  */
 char getche()
 {
